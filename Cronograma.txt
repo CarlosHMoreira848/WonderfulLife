@@ -1,8 +1,0 @@
-Cronograma projeto WonderfulLife
-
-- HTML - header 12/03 Legal
-- Body - 15 +/-
-- footer - 19 ()
-
-- Web - 20 
-- Página de conferência - 26
