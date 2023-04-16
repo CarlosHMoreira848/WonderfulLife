@@ -1,0 +1,130 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+
+header {
+background-color: yellow;
+
+background-image: url(img/taca-de-vinho-de-grandes-dimensoes.png);
+background-repeat: no-repeat;
+background-size: 20px;
+background-position: 10px center;
+
+
+}
+
+nav {
+width: 100%;
+height: 45px;
+padding-top: 30px;
+
+}
+
+a span {
+align-items: center;
+margin-left: 30px;
+margin-top: 15px;
+padding-top: 15px;
+box-sizing: border-box;
+text-decoration: bold;
+font-family: Roboto;
+font-weight: bold;
+color: #FFF;
+     text-shadow: 
+               -1px -1px 0px #000, 
+               -1px 1px 0px #000,                    
+                1px -1px 0px #000,                  
+                1px 0px 0px #000;
+
+}
+
+.image {
+text-align: center;
+
+}
+
+div h1 {
+text-align: center;
+margin: 15px;
+font-size: 30px;
+
+}
+
+.divider {
+height: 1px;
+background: #000;
+
+}
+
+.form {
+margin: 20px 46%;
+}
+
+legend {
+margin-top: 10px;
+}
+
+select {
+margin-top: 10px;
+}
+
+#checkbox {
+margin: 20px -100px;
+max-width: max-content;
+}
+
+.termos {
+margin: 5px 43.5%;
+}
+
+.enviar {
+	width: 100%;
+	padding: 15px 0;
+	background: darkblue;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	min-width: 104px;
+}
+
+.enviar:hover {
+	background: #5840f8;
+	transform: scale(1.2);
+}
+
+dialog::backdrop {
+background-color: rgb(0 0 0 / .5rem);
+}
+
+dialog {
+border: none;
+border-radius: .5rem;
+box-shadow: 0 0 1em rgb(0 0 0 / .3rem);
+width: 80%;
+heigth: 450px;
+margin-left: 10%;
+}
+
+footer {
+width: 100%;
+height: 80px;
+background: yellow
+}
+
+h5 {
+padding-top: 30px;
+text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
